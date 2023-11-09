@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Bücherei Königsbach
-description: Die Büchereich in Königsbach wurde aufgelöst. Diese Seite zeigt die vorhanden Bücher.
+description: Die Bücherei in Königsbach wurde aufgelöst. Diese Seite zeigt die vorhanden Bücher.
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
