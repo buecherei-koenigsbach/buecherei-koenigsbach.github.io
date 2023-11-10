@@ -4,7 +4,7 @@
         <h2>{{ book.title }}</h2>
         <p>Author: {{ book.author_names.join(', ') }}</p>
         <p>Year: {{ book.first_publish_year }}</p>
-        <img :src="'http://covers.openlibrary.org/b/olid/' + book.cover_edition_key + '-M.jpg'">
+        <img :src="'https://covers.openlibrary.org/b/olid/' + book.cover_edition_key + '-M.jpg'">
      </div>
       <Pagination
         :totalPages="totalPages"
