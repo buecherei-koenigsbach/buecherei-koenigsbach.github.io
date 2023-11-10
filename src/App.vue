@@ -50,7 +50,6 @@ export default {
         const data = await response.json();
         this.books = data.reading_log_entries.map(e => e.work);
         this.filteredBooks = this.books;
-        console.log(this.filteredBooks);
       } catch (error) {
         console.error('Error fetching books:', error);
       }
