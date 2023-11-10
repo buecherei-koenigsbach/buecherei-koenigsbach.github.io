@@ -1,6 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import axios from 'axios';
 import SearchSort from './components/SearchSort.vue';
 import BookList from './components/BookList.vue';
 </script>
